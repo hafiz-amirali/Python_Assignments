@@ -96,17 +96,17 @@ print(joined_str)
 s = "   Python is fun!   "
 
 # Remove leading & trailing spaces
-stripped_string = s.strip()
+strip_str = s.strip()
 
-# Print the stripped string
-print(stripped_string)
+# Print the strip str
+print(strip_str)
 
 # Left justify the string within a field of width 20, using * as the fill character.
-left = stripped_string.ljust(20, '*')
+left = strip_str.ljust(20, '*')
 print(left)
 
 # Right justify the string within a field of width 20, using * as the fill character.
-right = stripped_string.rjust(20, '*')
+right = strip_str.rjust(20, '*')
 print(right)
 
 
@@ -120,3 +120,29 @@ binary = bin(num)
 print(f"Binary Representation: {binary}")
 
 
+
+
+# Problem 9:
+base = 3
+exponent = 4
+
+# Compute base raised to the power of exponent
+power = base ** exponent
+
+# Print the result
+print(f"Power result: {power}")
+
+
+# Problem 10:
+
+value = 12.34567
+
+# Round to the nearest integer
+nearest_integer = round(value)
+
+# Round to two decimal places
+two_decimal_places = round(value, 2)
+
+# Print the results
+print(f"Rounded to nearest integer: {nearest_integer}")
+print(f"Rounded to two decimal places: {two_decimal_places}")
