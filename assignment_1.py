@@ -90,3 +90,33 @@ joined_str = ' '.join(substrings)
 
 # Print joined string
 print(joined_str)
+
+
+# Problem 7:
+s = "   Python is fun!   "
+
+# Remove leading & trailing spaces
+stripped_string = s.strip()
+
+# Print the stripped string
+print(stripped_string)
+
+# Left justify the string within a field of width 20, using * as the fill character.
+left = stripped_string.ljust(20, '*')
+print(left)
+
+# Right justify the string within a field of width 20, using * as the fill character.
+right = stripped_string.rjust(20, '*')
+print(right)
+
+
+# Problem 8:
+num = 45
+
+# Convert int to binary
+binary = bin(num)
+
+# Print the result
+print(f"Binary Representation: {binary}")
+
+
